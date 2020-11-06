@@ -35,28 +35,33 @@
 <!--Navigation !-->
 <nav class = "navbar navbar-expand-md navbar-light bg-">
   <div>
-    <a class="navbar-brand" href="index.jsp"><img src="logo.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarResponsive ">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="index.jsp"><img src="logo.png" padding="0", border="0"></a>
+
 
     <div class="collpase navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#blankforNow">Home</a>
+        <li class="nav-item active nav-item-padding">
+          <a class="nav-link" href="#blankforNow" class="active">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#blankforNow">About</a>
+        <li class="nav-item active nav-item-padding">
+          <a class="nav-link" href="#blankforNow">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#blankforNow">Food</a>
+        <li class="nav-item active nav-item-padding">
+          <a class="nav-link" href="#blankforNow">Dry Food</a>
         </li>
         <li class="nav-item">
+        <li class="nav-item active nav-item-padding">
           <a class="nav-link" href="#blankforNow">Meat</a>
         </li>
         <li class="nav-item">
+        <li class="nav-item active nav-item-padding">
           <a class="nav-link" href="#blankforNow">Beverages</a>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item active nav-item-padding">
+          <a class="nav-link" href="#blankforNow">Produce</a>
         </li>
       </ul>
     </div>
