@@ -5,3 +5,5 @@
 
 This will create a dist folder with a main-js file with the react-javascript as vanilla-javascript.
 This script will run a watcher that autocompiles and generates the new main.js file with every change.
+
+Run/Compile guide by Johanna, any questions of how to run project send email to johannafransson97@gmail.com
