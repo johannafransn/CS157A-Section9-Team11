@@ -1,24 +1,26 @@
 .nav-item-padding {
-    padding: 0px 30px;
-    font-size: 25px;
+    padding: 0px 10px;
+    font-size: 20px;
+    text-decoration: none;
 }
-
 
 /* Change the color of links on hover background, not text*/
 .navbar a:hover {
     color: #ddd !important;
+    text-decoration: none;
+}
+
+/*color of selected nav item that you are on*/
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
 }
 
 
 .nav-link a:hover {
     color: black !important;
+    text-decoration: none;
 }
 
-/*Form for signup customers */
-button, input, optgroup, select, textarea {
-    margin: 0 !important;
-    margin-left: 50px !important;
-    font-family: inherit !important;
-    font-size: inherit !important;
-    line-height: inherit !important;
-}

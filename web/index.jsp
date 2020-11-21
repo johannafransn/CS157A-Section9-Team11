@@ -47,9 +47,6 @@
     <div>
         <a class="navbar-brand" href="index.jsp"><img src="logo.png" padding="0" , border="0"></a>
         <div id="navbar-container"></div>
-
-
-
     </div>
 </nav>
 
@@ -258,7 +255,7 @@
     </div>
 </footer>
 
-<!--<script type="text/jsx">
+<!-- this is old code, you can keep this commented out for reference <script type="text/jsx">
     console.log("hallå?")
     // This is the code that starts the react-stuff
     //import {StartReact} from "./javascript/StartReact.js";

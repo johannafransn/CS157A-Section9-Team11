@@ -50,7 +50,7 @@
 </form>
 
 
-    <!--<h2>
+    <!-- THIS IS OLD DESIGN, i just saved it for reference<h2>
         Sign Up Page
     </h2>
     <div class = "signUp">

@@ -49,10 +49,10 @@
     </form>
 
 
-
+<!-- Redircet back to home page when you click submit button rn-->
     <script>
         var redirect = function(){
-            document.location.href="main_page.jsp"
+            document.location.href="../index.jsp"
         }
     </script>
 
