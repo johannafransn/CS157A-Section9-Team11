@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="GrocerymartNEW" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="io.markdom:handler-json-simple:0.0.7" />
+        </element>
       </element>
     </root>
   </artifact>

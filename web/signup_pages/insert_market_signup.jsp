@@ -49,7 +49,7 @@
         
         try{
             java.sql.Connection con; 
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "cs157a"); 
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "root");
             out.println("Connection made");
             MessageDigest md = MessageDigest.getInstance("SHA-512");
             md.update(salt.getBytes(StandardCharsets.UTF_8));

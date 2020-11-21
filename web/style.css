@@ -14,4 +14,11 @@
     color: black !important;
 }
 
-
+/*Form for signup customers */
+button, input, optgroup, select, textarea {
+    margin: 0 !important;
+    margin-left: 50px !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+}

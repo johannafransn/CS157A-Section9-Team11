@@ -1,0 +1,13 @@
+/*Position and text of the whole form group */
+button, input, optgroup, select, textarea {
+    margin-left: 100px !important;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/*Position and text of the labels Monday hours etc */
+label {
+    display: inline-block !important;
+    margin-left: 100px !important;
+}

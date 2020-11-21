@@ -5,203 +5,61 @@
       <artifact name="GrocerymartNEW:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2ed5d8-a519-4a39-9b88-b69ead4efe34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_markdom_handler_json_simple_0_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/signup_pages/logosingup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/signup_pages/styleSignup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GrocerymartNEW_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GrocerymartNEW_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrocerymartNEW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GrocerymartNEW.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/GrocerymartNEW_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GrocerymartNEW_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/signup_pages/customer_signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/signup_pages/customer_signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/signup_pages/insert_market_signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/signup_pages/insert_market_signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/signup_pages/market_signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/signup_pages/market_signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1327722259">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="3" />
-          <entry key="gitignore" value="1" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="20" />
-          <entry key="json" value="4" />
-          <entry key="jsp" value="3" />
-          <entry key="md" value="1" />
-          <entry key="png" value="1" />
-          <entry key="svg" value="1" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="3" />
-          <entry key="Image" value="4" />
-          <entry key="JSON" value="4" />
-          <entry key="JSP" value="3" />
-          <entry key="JavaScript" value="20" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SVG" value="1" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="255" />
-          <entry key="gitignore" value="6" />
-          <entry key="js" value="1056" />
-          <entry key="json" value="2" />
-          <entry key="jsp" value="637" />
-          <entry key="jsx" value="2" />
-          <entry key="md" value="468" />
-          <entry key="txt" value="43" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="255" />
-          <entry key="JSON" value="2" />
-          <entry key="JSP" value="637" />
-          <entry key="JSX Harmony" value="2" />
-          <entry key="JavaScript" value="1056" />
-          <entry key="Markdown" value="468" />
-          <entry key="PLAIN_TEXT" value="49" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/Navbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-599" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>logo</find>
-      <find>display</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/web/style.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/index.js" />
-        <option value="$PROJECT_DIR$/src/App.test.js" />
-        <option value="$PROJECT_DIR$/src/components.js" />
-        <option value="$PROJECT_DIR$/src/navbar.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/Home.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/Contact.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/layouts/navbar.js" />
-        <option value="$PROJECT_DIR$/src/StartReact.js" />
-        <option value="$PROJECT_DIR$/src/autogenerated/App.js" />
-        <option value="$PROJECT_DIR$/web/javascript/StartReact.js" />
-        <option value="$PROJECT_DIR$/web/javascript/components/Navbar.js" />
-        <option value="$PROJECT_DIR$/web/javascript/components/Navbar.jsx" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/js/components/Navbar.js" />
-        <option value="$PROJECT_DIR$/src/js/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/readme.md" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -213,114 +71,64 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1kbAseu2ieSCDUUjlfIjxmOjr8T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GrocerymartNEW" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GrocerymartNEW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604862829831" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/signup_pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\johan\IdeaProjects\CS157A-Section9-Team11\web\signup_pages" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/javascript" />
       <recent name="$PROJECT_DIR$/src/autogenerated" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/web" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.371" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.371" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="GrocerymartNEW:war exploded">
@@ -332,11 +140,44 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_371_GrocerymartNEW" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50206" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -360,6 +201,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -376,6 +218,8 @@
       <workItem from="1604666212709" duration="6260000" />
       <workItem from="1604751112702" duration="5221000" />
       <workItem from="1604833257934" duration="4048000" />
+      <workItem from="1605959135105" duration="288000" />
+      <workItem from="1605960155114" duration="12768000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1603974534264</created>
@@ -394,51 +238,19 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19404000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49570817" visible="true" weight="0.3120482" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50429183" side_tool="true" visible="true" weight="0.3120482" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4985694" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -447,263 +259,113 @@
     <MESSAGE value="Changes made to style &amp; html" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes made to style &amp; html" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/GrocerymartNEW_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/slider1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/slider2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/slider3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/index.js" />
-    <entry file="file://$PROJECT_DIR$/web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar.js" />
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/components/pages/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/reportWebVitals.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/components/pages/Home.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/components/layouts/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#123#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/autogenerated/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/javascript/StartReact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/javascript/components/Navbar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="428" y="145" key="#BuildArtifactsBeforeRunChooser" timestamp="1605965327556">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="428" y="145" key="#BuildArtifactsBeforeRunChooser/0.0.1280.680@0.0.1280.680" timestamp="1605965327556" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1605966437851">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1605966437851" />
+    <state x="426" y="219" key="#Tomcat_Server" timestamp="1605961073680">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="426" y="219" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1605961073680" />
+    <state x="374" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1605965577375">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="374" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1605965577375" />
+    <state x="428" y="82" key="FileChooserDialogImpl" timestamp="1605961072132">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="428" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605961072132" />
+    <state width="845" height="220" key="GridCell.Tab.0.bottom" timestamp="1605975920332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605975920332" />
+    <state width="845" height="220" key="GridCell.Tab.0.center" timestamp="1605975920332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605975920332" />
+    <state width="845" height="220" key="GridCell.Tab.0.left" timestamp="1605975920332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605975920332" />
+    <state width="845" height="220" key="GridCell.Tab.0.right" timestamp="1605975920332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605975920332" />
+    <state width="845" height="220" key="GridCell.Tab.1.bottom" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.1.center" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.1.left" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.1.right" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.2.bottom" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.2.center" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.2.left" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.2.right" timestamp="1605975920253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1605975920253" />
+    <state width="845" height="220" key="GridCell.Tab.3.bottom" timestamp="1605967528046">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605967528046" />
+    <state width="845" height="220" key="GridCell.Tab.3.center" timestamp="1605967528046">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1605967528046" />
+    <state width="845" height="220" key="GridCell.Tab.3.left" timestamp="1605967528046">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1605967528046" />
+    <state width="845" height="220" key="GridCell.Tab.3.right" timestamp="1605967528046">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="220" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1605967528046" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1605966268352">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605966268352" />
+    <state x="396" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605961960599">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1605961960599" />
+    <state x="1" y="59" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605964823259">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="1" y="59" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1605964823259" />
+    <state x="0" y="0" width="587" height="680" key="find.popup" timestamp="1605965736761">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="587" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1605965736761" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605965817944">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605965817944" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>GrocerymartNEW:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>GrocerymartNEW</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CS157A_Section9_Team11$Tomcat_9_0_371.ic" NAME="Tomcat 9.0.371 Coverage Results" MODIFIED="1605975926346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

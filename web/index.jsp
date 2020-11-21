@@ -13,8 +13,8 @@
 
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import = "java.sql.*" %> 
-<%@ page import = "java.util.*" %> 
+<%@ page import = "java.sql.*" %>
+<%@ page import = "java.util.*" %>
 <%@ page import="org.json.simple.JSONObject"%>
 <%@ page import="org.json.simple.JSONValue"%>
 <%@ page import="org.json.simple.JSONArray"%>
@@ -46,7 +46,6 @@
 <nav class="navbar navbar-expand-md navbar-light bg-">
     <div>
         <a class="navbar-brand" href="index.jsp"><img src="logo.png" padding="0" , border="0"></a>
-
         <div id="navbar-container"></div>
 
 
@@ -208,7 +207,7 @@
                 <%
                     try{
                         java.sql.Connection con; 
-                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "cs157a"); 
+                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "root");
                         Statement stmt=con.createStatement();
                         ResultSet rs=stmt.executeQuery("select store_hours from grocerymart.markets where store_name = 'GroceryMart'");
                         String p = null;
@@ -259,7 +258,7 @@
     </div>
 </footer>
 
-<script type="text/jsx">
+<!--<script type="text/jsx">
     console.log("hallå?")
     // This is the code that starts the react-stuff
     //import {StartReact} from "./javascript/StartReact.js";
@@ -272,8 +271,8 @@
     console.log(React.Component)
     ReactDOM.render(<Navbar/>, navbarContainer);
 
-</script>-
-<script src="./dist/main.js"></script>
+</script>-->
+<script src="/dist/main.js"></script>
 
 </body>
 </html>
