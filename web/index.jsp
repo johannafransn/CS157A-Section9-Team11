@@ -68,8 +68,8 @@
             <div class="carousel-caption">
                 <h1 class="display-2">GroceryMart</h1>
                 <h3>Easy Shopping Online</h3>
-                <button type="button" class="btn btn-outline-light btn-lg">START SHOPPING</button>
-                <button type="button" class="btn btn-primary btn-lg">SIGN UP</button>
+                <a href = signup_pages/market_signup.jsp><button type="button" class="btn btn-outline-light btn-lg">SIGN UP AS MARKET</button></a>
+                <a href = "signup_pages/customer_signup.jsp"><button type="button" class="btn btn-primary btn-lg">SIGN UP AS CUSTOMER</button></a>
             </div>
         </div>
         <div class="carousel-item">
@@ -186,7 +186,7 @@
                         java.sql.Connection con; 
                         con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "cs157a"); 
                         Statement stmt=con.createStatement();
-                        ResultSet rs=stmt.executeQuery("select store_name, store_email, store_phone from grocerymart.grocerymart where store_name = 'GroceryMart'");
+                        ResultSet rs=stmt.executeQuery("select store_name, store_email, store_phone from grocerymart.markets where store_name = 'GroceryMart'");
                         while(rs.next())
                             out.println(rs.getString(1) + "<br>" + rs.getString(2) + "<br>" + rs.getString(3));
                         con.close();
@@ -210,7 +210,7 @@
                         java.sql.Connection con; 
                         con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "cs157a"); 
                         Statement stmt=con.createStatement();
-                        ResultSet rs=stmt.executeQuery("select store_hours from grocerymart.grocerymart where store_name = 'GroceryMart'");
+                        ResultSet rs=stmt.executeQuery("select store_hours from grocerymart.markets where store_name = 'GroceryMart'");
                         String p = null;
                         while(rs.next())
                             p = rs.getString(1);
@@ -259,7 +259,7 @@
     </div>
 </footer>
 
-<!--<script type="text/jsx">
+<script type="text/jsx">
     console.log("hallå?")
     // This is the code that starts the react-stuff
     //import {StartReact} from "./javascript/StartReact.js";
@@ -272,7 +272,7 @@
     console.log(React.Component)
     ReactDOM.render(<Navbar/>, navbarContainer);
 
-</script>-->
+</script>-
 <script src="./dist/main.js"></script>
 
 </body>
