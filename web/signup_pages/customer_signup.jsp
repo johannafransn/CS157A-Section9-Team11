@@ -36,11 +36,11 @@
             <input type = "text" name = "fname" placeholder = "First Name" required>
             <input type = "text" name = "lname" placeholder = "Last Name" required><br><br>
             <input type = "text" name = "phone" placeholder="Phone Number"><br><br>
-            <input type = "text" name = "street" placeholder = "Street Address" required><br><br>
-            <input type = "text" name = "city" placeholder = "City" required><br><br>
+            <input type = "text" name = "street" placeholder = "Street Address" required>
+            <input type = "text" name = "city" placeholder = "City" required>
             <input type = "text" name = "state" placeholder = "State" required><br><br>
             <input type = "text" name = "zipcode" placeholder = "Zipcode" required><br><br>
-            <input type = "password" name = "password" placeholder="Password" required><br><br>
+            <input type = "password" name = "password" placeholder="Password" required>
             <input type = "password" name = "confirmPass" placeholder="Confirm Password" required><br><br>
         </div>
 

@@ -14,15 +14,15 @@
 
 <form action="insert_market_signup.jsp">
     <div class="form-group">
-        <input type = "text" name = "storeName" placeholder = "Store Name" required><br><br>
+        <input type = "text" name = "storeName" placeholder = "Store Name" required>
         <input type = "text" name = "description" placeholder = "Store Description" required><br><br>
-        <input type = "email" name = "email" placeholder = "Email" required><br><br>
+        <input type = "email" name = "email" placeholder = "Email" required>
         <input type = "text" name = "phone" placeholder="Phone Number"><br><br>
-        <input type = "text" name = "street" placeholder = "Street Address" required><br><br>
+        <input type = "text" name = "street" placeholder = "Street Address" required>
         <input type = "text" name = "city" placeholder = "City" required><br><br>
-        <input type = "text" name = "state" placeholder = "State" required><br><br>
+        <input type = "text" name = "state" placeholder = "State" required>
         <input type = "text" name = "zipcode" placeholder = "Zipcode" required><br><br>
-        <input type = "password" name = "password" placeholder="Password" required><br><br>
+        <input type = "password" name = "password" placeholder="Password" required>
         <input type = "password" name = "confirmPass" placeholder="Confirm Password" required><br><br>
         <label for = "monTimes">Monday Hours</label><br>
         <input type = "text" id="monTimes" name = "monOpen" placeholder = "Opening Time" required>
