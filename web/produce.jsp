@@ -21,8 +21,8 @@
 <body>
 <!--Navbar from react component should also be here !-->
 
-<a class="navbar-brand" href="index.jsp"><img src="logo.png" padding="0" , border="0"></a>
-
+<!--change this from <a to <link maybe !-->
+<a class="navbar-brand" href="home"><img src="logo.png" padding="0" , border="0"></a>
 
 <!--Start of welcome to produce !-->
     <div class="container-fluid padding">

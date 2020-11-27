@@ -72,3 +72,98 @@ a.btn.buy{
     background-color: #434444;
     color: #fff;
 }
+
+/*Here is styling for contact form*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    box-shadow: 0;
+}
+
+
+
+.container {
+    position: relative;
+    display: flex;
+    margin: 1em 1.3em;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.left {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+}
+
+.left-things {
+    height: 80%;
+    width: 75%;
+    margin: 3em 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-things i {
+    color: white;
+    padding-left: 0.3em;
+}
+
+.contact {
+    font-size: 1.8em;
+    padding: 1em 0 0.5em 0.5em;
+}
+
+.contact-text {
+    font-size: 1em;
+    padding: 0 3em 0 1em;
+}
+
+.right {
+    background-color: white;
+    height: 100%;
+    width: 70%;
+    border-radius: 0 10px 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    margin: 2em 2em 0em 2em;
+    line-height: 2em;
+}
+
+input {
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    border: .5px solid #ccc;
+    box-shadow: none;
+}
+
+textarea {
+    border: .5px solid #ccc;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+    box-sizing: border-box;
+    padding-left: 0.5em;
+}
+
+#comment {
+    height: 100px;
+    width: 90%;
+}
+
+button {
+    color: white;
+    background-color: #67888e;
+    border: 0;
+    border-radius: 5px;
+    width: 9em;
+    height: 2em;
+}

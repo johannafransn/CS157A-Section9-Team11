@@ -42,113 +42,13 @@
 <body>
 
 
-<!--Navigation !-->
-<nav class="navbar navbar-expand-md navbar-light bg-">
-    <div>
-        <a class="navbar-brand" href="index.jsp"><img src="logo.png" padding="0" , border="0"></a>
-        <div id="navbar-container"></div>
-    </div>
-</nav>
+<!-- all content -->
+
+<div id="contentContainer"></div>
 
 
-<!--Image Slider !-->
-<div id="slides" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="slider3.jpg" height="600">
-            <div class="carousel-caption">
-                <h1 class="display-2">GroceryMart</h1>
-                <h3>Easy Shopping Online</h3>
-                <a href = signup_pages/market_signup.jsp><button type="button" class="btn btn-outline-light btn-lg">SIGN UP AS MARKET</button></a>
-                <a href = "signup_pages/customer_signup.jsp"><button type="button" class="btn btn-primary btn-lg">SIGN UP AS CUSTOMER</button></a>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="slider2.jpg" alt="" width="1500" height="500">
-        </div>
-        <div class="carousel-item">
-            <img src="slider1.jpg" alt="" height="500">
-
-        </div>
-    </div>
-</div>
 
 
-<!--- Jumbotron -->
-<div class="container-fluid">
-    <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead">Grocery shopping online is simple and easy. Try GroceryMart today!</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="#">
-                <button type="button" class="btn btn-outline-secondary btn-lg">Start Shopping!</button>
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<!--- Welcome Section -->
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h1 class="display-4">Made for you.</h1>
-        </div>
-        <hr>
-        <div class="col-12">
-            <p class="lead">Welcome to GroceryMart. Our core mission values are to provide a safe environment for people
-                to be able to shop their grocieries online. </p>
-        </div>
-    </div>
-</div>
-
-
-<!--- Three Column Section -->
-<div class="container-fluid padding">
-    <div class="row text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fa fa-shopping-cart"></i>
-            <h3>EASY SHOPPING</h3>
-            <p>Choose between a variety of fruits and vegtables</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fa fa-recycle"></i>
-            <h3>SUSTAINABLE</h3>
-            <p>We try our best to limit waste, we only source sustainably</p>
-        </div>
-        <div class="col-sm-12 col-sm-6 col-md-4">
-            <i class="fa fa-heart"></i>
-            <h3>HEALTHY</h3>
-            <p>Food that is healthy and tastes good!</p>
-        </div>
-    </div>
-    <hr class="my-4">
-</div>
-
-<!--- Two Column Section -->
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-lg-6">
-            <h2>Only the best quality products...</h2>
-            <p>We only resoruce the best quality fresh produce. Choose between multiple varieties in the fruit and
-                vegtable section.</p>
-            <p>Our meat is only brought up in humane conditions and sourced locally. Try our delicates today.</p>
-            <p>We have chosen select beverages that are both healthy and tastes good. Browse to our beverage section to
-                read more!</p>
-            <br>
-            <a href="" class="btn btn-primary">Learn More</a>
-        </div>
-        <div class="col-lg-4">
-            <img src="sidePic.png" class="img-fluid">
-        </div>
-    </div>
-</div>
 
 
 <!--- Connect -->
