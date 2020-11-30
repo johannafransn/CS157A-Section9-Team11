@@ -155,20 +155,12 @@
     </div>
 </footer>
 
-<!-- this is old code, you can keep this commented out for reference <script type="text/jsx">
-    console.log("hallå?")
-    // This is the code that starts the react-stuff
-    //import {StartReact} from "./javascript/StartReact.js";
-    import {Navbar} from "./components/Navbar.jsx";
-    import React from "react";
-    import * as ReactDOM from "react-dom";
+<!--
+TODO: Get stuff from db, set to global js variable
+window.thisIsAGlobalVar = DB-stuff
 
-    let navbarContainer = document.querySelector("#navbar-container");
-    console.log(navbarContainer)
-    console.log(React.Component)
-    ReactDOM.render(<Navbar/>, navbarContainer);
 
-</script>-->
+-->
 <script src="/dist/main.js"></script>
 
 </body>

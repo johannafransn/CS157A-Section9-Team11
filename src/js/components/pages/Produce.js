@@ -2,11 +2,35 @@ import React, {Component} from "react";
 
 class Produce extends Component
 {
+
+    htmlForOneProduce(produce){
+        return (
+            // crete new router?
+        <div className="col-md-4 product-grid">
+            <div className="image">
+                <a href="#">
+                    <img src={produce.imageSrc} alt="description of picture" className="w-100"/>
+                    <div className="overlay">
+                        <div className="detail">View Details</div>
+                    </div>
+                </a>
+            </div>
+            <h5 className="text-center">{produce.title}</h5>
+            <h5 className="text-center">Price: $ {produce.priceInDollar}</h5>
+            <a href="#" className="btn buy">BUY</a>
+        </div>
+        )
+    }
+
     render()
     {
+        console.log(this.props.listOfProduce)
+        let htmlForWholeProduceList = this.props.listOfProduce.map((produce) => {
+            return this.htmlForOneProduce(produce)
+        }).join("");
+        console.log(htmlForWholeProduceList)
+
         return(
-
-
 
             <div>
                 <div className="container-fluid padding">
@@ -22,104 +46,8 @@ class Produce extends Component
                 </div>
 
 
-
                 <div className="row">
-
-                    <div className="col-md-4 product-grid">
-                        <div className="image">
-                            <a href="#">
-                                <img src="images/apple.jpg" alt="description of picture" className="w-100"/>
-                                    <div className="overlay">
-                                        <div className="detail">View Details</div>
-                                    </div>
-                            </a>
-                        </div>
-                        <h5 className="text-center">Apple</h5>
-                        <h5 className="text-center">Price: $5</h5>
-                        <a href="#" className="btn buy">BUY</a>
-                    </div>
-
-
-
-                    <div className="col-md-4 product-grid">
-                        <div className="image">
-                            <a href="#">
-                                <img src="images/broccoli.jpg" alt="description of picture" className="w-100"/>
-                                    <div className="overlay">
-                                        <div className="detail">View Details</div>
-                                    </div>
-                            </a>
-                        </div>
-                        <h5 className="text-center">Broccoli</h5>
-                        <h5 className="text-center">Price: $1</h5>
-                        <a href="#" className="btn buy">BUY</a>
-                    </div>
-
-
-
-                    <div className="col-md-4 product-grid">
-                        <div className="image">
-                            <a href="#">
-                                <img src="images/orange.jpg" alt="description of picture" className="w-100"/>
-                                    <div className="overlay">
-                                        <div className="detail">View Details</div>
-                                    </div>
-                            </a>
-                        </div>
-                        <h5 className="text-center">Orange</h5>
-                        <h5 className="text-center">Price: $1</h5>
-                        <a href="#" className="btn buy">BUY</a>
-                    </div>
-
-
-
-                    <div className="col-md-4 product-grid">
-                        <div className="image">
-                            <a href="#">
-                                <img src="images/grapes.jpg" alt="description of picture" className="w-100"/>
-                                    <div className="overlay">
-                                        <div className="detail">View Details</div>
-                                    </div>
-                            </a>
-                        </div>
-                        <h5 className="text-center">Grapes</h5>
-                        <h5 className="text-center">Price: $4</h5>
-                        <a href="#" className="btn buy">BUY</a>
-                    </div>
-
-
-
-                    <div className="col-md-4 product-grid">
-                        <div className="image">
-                            <a href="#">
-                                <img src="images/avocado.jpg" alt="description of picture" className="w-100"/>
-                                    <div className="overlay">
-                                        <div className="detail">View Details</div>
-                                    </div>
-                            </a>
-                        </div>
-                        <h5 className="text-center">Avocado</h5>
-                        <h5 className="text-center">Price: $2</h5>
-                        <a href="#" className="btn buy">BUY</a>
-                    </div>
-
-
-
-                    <div className="col-md-4 product-grid">
-                        <div className="image">
-                            <a href="#">
-                                <img src="images/banana.jpg" alt="description of picture" className="w-100"/>
-                                    <div className="overlay">
-                                        <div className="detail">View Details</div>
-                                    </div>
-                            </a>
-                        </div>
-                        <h5 className="text-center">Banana</h5>
-                        <h5 className="text-center">Price: $3</h5>
-                        <a href="#" className="btn buy">BUY</a>
-                    </div>
-
-
+                    {this.props.listOfProduce.map(produce => this.htmlForOneProduce(produce)) }
                 </div>
 
 </div>

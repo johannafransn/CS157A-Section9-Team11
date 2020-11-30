@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Route, {BrowserRouter} from "react-router-dom";
+import MeatScreen from "./MeatScreen";
 
 class Meat extends Component
 {
@@ -14,7 +15,6 @@ class Meat extends Component
                         <div className="col-12">
                             <h1 className="display-4">Fresh Meat.</h1>
                         </div>
-
                         <div className="col-12">
                             <p className="lead">We have tons of great options for fresh Meat. Check them out here! </p>
                         </div>
