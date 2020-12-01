@@ -21,11 +21,11 @@ class Home extends Component
                                 <h1 className="display-2">GroceryMart</h1>
                                 <h3>Easy Shopping Online</h3>
                                 <a href="signup_pages/market_signup.jsp">
-                                    <button type="button" className="btn btn-outline-light btn-lg">Sign up as market
+                                    <button type="button" className="btn btn-outline-light btn-lg">Market Signup
                                     </button>
                                 </a>
                                 <a href="signup_pages/customer_signup.jsp">
-                                    <button type="button" className="btn btn-primary btn-lg">Sign up as customer
+                                    <button type="button" className="btn btn-primary btn-lg">Customer Signup
                                     </button>
                                 </a>
                             </div>
