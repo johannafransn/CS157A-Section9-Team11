@@ -2,93 +2,105 @@
     "items":[
         {
             "id":"1",
-            "title":"Ketchup",
-            "price":5,
-            "image":"../apple.jpg"
+            "title":"Salad",
+            "price":5.99,
+            "image":"./Images/salad.jpg"
         },
         {
             "id":"2",
             "title":"Bread",
-            "price":3,
-            "image":"../apple.jpg"
+            "price":3.99,
+            "image":"./Images/bread.jpg"
         },
         {
             "id":"3",
             "title":"Egg",
-            "price":2,
-            "image":"../apple.jpg"
+            "price":2.99,
+            "image":"./Images/egg.jpg"
         },
         {
             "id":"4",
             "title":"Milk",
-            "price":3,
-            "image":"../apple.jpg"
+            "price":3.99,
+            "image":"./Images/milk.jpg"
         },
         {
             "id":"5",
             "title":"Orange Juice",
-            "price":6,
-            "image":"../apple.jpg"
+            "price":6.99,
+            "image":"./Images/orangejuice.jpg"
         },
         {
             "id":"6",
             "title":"Apple",
-            "price":1,
-            "image":"../apple.jpg"
+            "price":1.99,
+            "image":"./Images/apple.jpg"
         },
         {
             "id":"7",
             "title":"Banana",
-            "price":1,
-            "image":"../apple.jpg"
+            "price":1.99,
+            "image":"./Images/banana.jpg"
         },
         {
             "id":"8",
             "title":"Potato",
-            "price":2,
-            "image":"../apple.jpg"
+            "price":2.99,
+            "image":"./Images/potato.jpg"
         },
         {
             "id":"9",
             "title":"Chicken",
-            "price":10,
-            "image":"../apple.jpg"
+            "price":10.99,
+            "image":"./Images/chicken.jpg"
         },
         {
             "id":"10",
             "title":"Lamb",
-            "price":15,
-            "image":"../apple.jpg"
+            "price":15.99,
+            "image":"./Images/lamb.jpg"
         },
         {
             "id":"11",
             "title":"Rice",
-            "price":2,
-            "image":"../apple.jpg"
+            "price":2.99,
+            "image":"./Images/rice.jpg"
         },
         {
             "id":"12",
             "title":"Broccoli",
-            "price":1,
-            "image":"../apple.jpg"
+            "price":1.99,
+            "image":"./Images/broccoli.jpg"
         },
         {
             "id":"13",
             "title":"Squash",
-            "price":4,
-            "image":"../apple.jpg"
+            "price":4.99,
+            "image":"./Images/squash.jpg"
         },
         {
             "id":"14",
             "title":"Lettuce",
-            "price":1,
-            "image":"../apple.jpg"
+            "price":1.99,
+            "image":"./Images/lettuce.jpg"
         },
         {
             "id":"15",
-            "title":"Paprika",
-            "price":0.50,
-            "image":"../apple.jpg"
+            "title":"pineapple",
+            "price":3.99,
+            "image":"./Images/pineapple.jpg"
+        },
+        {
+            "id":"16",
+            "title":"beer",
+            "price":12.99,
+            "image":"./Images/beer.jpg"
+        },
+        {
+            "id":"17",
+            "title":"whiskey",
+            "price":20.99,
+            "image":"./Images/whiskey.jpg"
         }
     ]
 }

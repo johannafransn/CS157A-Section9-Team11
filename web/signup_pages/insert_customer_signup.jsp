@@ -9,10 +9,6 @@
 <%@ page import = "java.nio.charset.StandardCharsets" %> 
 
 <html>
-    <h1>
-        customer signup backpage
-
-    </h1>
     <div>
         <%
             String firstName = request.getParameter("fname");
@@ -51,9 +47,11 @@
                 out.println("Successfully inserted items");
                 stmt.close();
                 con.close();
+                String redirect = "http://localhost:8080/web/main_pages/main.jsp";
+                response.sendRedirect(redirect);
             }
             catch(Exception e){
-                e.printStackTrace();
+                out.println(e);
             }
         %>
     </div>

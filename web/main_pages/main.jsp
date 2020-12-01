@@ -39,9 +39,6 @@
           <h2>our products</h2>
         </div>
         <div class="products-center">
-          <!-- single product -->
-          
-          <!-- end of single product -->
         </div>
       </section>
 
@@ -50,23 +47,6 @@
           <span class="close-cart"><i class="far fa-window-close"></i></span>
           <h2>your cart</h2>
           <div class="cart-content">
-            <!-- cart item -->
-            <!-- <div class="cart-item">
-              <img src="./images/product-1.jpeg" alt="product" />
-              <div>
-                <h4>queen bed</h4>
-                <h5>$9.00</h5>
-                <span class="remove-item">remove</span>
-              </div>
-              <div>
-                <i class="fas fa-chevron-up"></i>
-                <p class="item-amount">
-                  1
-                </p>
-                <i class="fas fa-chevron-down"></i>
-              </div>
-            </div> -->
-            <!-- cart item -->
           </div>
           <div class="cart-footer">
             <h3>your total : $<span class="cart-total">0</span></h3>
