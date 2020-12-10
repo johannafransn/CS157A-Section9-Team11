@@ -96,9 +96,10 @@
             String query = "INSERT INTO grocerymart.markets (store_name, store_description, store_hours, store_email, store_phone, street, city, state, zipcode, salt_key, password_hashed)" 
             + "VALUES ('" + storeName + "','" + storeDescrip + "', '" + storeHours + "', '" + email + "', '" + phone + "', '" + street + "', '" + city + "', '" + state + "', '" + zipcode + "', '" + salt + "', '" + hashedPWord + "')";
             stmt.executeUpdate(query);
-            out.println("Successfully inserted items");
             stmt.close();
             con.close();
+            String redirect = "http://localhost:8080/web/main_pages/market_main.jsp";
+            response.sendRedirect(redirect);
         }
         catch(Exception e){
             e.printStackTrace();

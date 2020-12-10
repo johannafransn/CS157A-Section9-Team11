@@ -47,8 +47,14 @@ class Home extends Component
                             <p className="lead">Grocery shopping online is simple and easy. Try GroceryMart today!</p>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                            <a href="#">
-                                <button type="button" className="btn btn-outline-secondary btn-lg">Start Shopping!
+                            <a href="login_pages/customer_login.jsp">
+                                <button type="button" className="btn btn-outline-secondary btn-lg">Customer Login
+                                </button>
+                            </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                            <a href="login_pages/market_login.jsp">
+                                <button type="button" className="btn btn-outline-secondary btn-lg">Market Login
                                 </button>
                             </a>
                         </div>
