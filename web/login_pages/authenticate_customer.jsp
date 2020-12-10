@@ -7,9 +7,7 @@
 <%@ page import = "java.security.MessageDigest" %> 
 <%@ page import = "java.security.NoSuchAlgorithmException" %> 
 <%@ page import = "java.nio.charset.StandardCharsets" %> 
-<%@ page import="org.json.simple.JSONObject"%>
-<%@ page import="org.json.simple.JSONValue"%>
-<%@ page import="org.json.simple.JSONArray"%>
+
 <html>
     <div>
     <%

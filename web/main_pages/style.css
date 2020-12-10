@@ -5,6 +5,7 @@
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #11cdeeee;
+  --mainRed: rgb(173, 7, 7);
   --mainSpacing: 0.1rem;
   --mainTransition: all 0.3s linear;
 }
@@ -92,6 +93,44 @@ body {
   color: var(--primaryColor);
 }
 /* --------------- End of Hero ---------------- */
+/* --------------- Insert Button ---------------- */
+.insert{
+  align-items: flex-start;  
+  padding: 4rem 0;
+}
+.insert-btn{
+  float:right;
+  background: var(--primaryColor);
+  padding: 0.5rem 0.75rem;
+  font-weight: bold;
+  border: none;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  margin-right: 350px;
+}
+.coupon-btn{
+  float:right;
+  background: var(--primaryColor);
+  padding: 0.5rem 0.75rem;
+  font-weight: bold;
+  border: none;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  margin-right: -155px;
+  margin-top: 50px;
+}
+.update-btn{
+  float:right;
+  background: var(--primaryColor);
+  padding: 0.5rem 0.75rem;
+  font-weight: bold;
+  border: none;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  margin-right: -185px;
+  margin-top: 100px;
+}
+/* --------------- End of Insert Button ---------------- */
 /* --------------- Products ---------------- */
 
 .products {
@@ -134,10 +173,30 @@ body {
 .bag-btn:hover {
   color: var(--mainWhite);
 }
+.delete-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: var(--mainRed);
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: var(--mainSpacing);
+  font-weight: bold;
+  transition: var(--mainTransition);
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.delete-btn:hover {
+  color: var(--mainWhite);
+}
 .fa-shopping-cart {
   margin-right: 0.5rem;
 }
 .img-container:hover .bag-btn {
+  transform: translateX(0);
+}
+.img-container:hover .delete-btn {
   transform: translateX(0);
 }
 .product-img {

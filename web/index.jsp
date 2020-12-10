@@ -104,7 +104,7 @@
                 <%
                     try{
                         java.sql.Connection con; 
-                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "root");
+                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a", user, "cs157a");
                         Statement stmt=con.createStatement();
                         ResultSet rs=stmt.executeQuery("select store_hours from grocerymart.markets where store_name = 'GroceryMart'");
                         String p = null;
@@ -127,7 +127,7 @@
                         out.println(keyList.get(keyList.indexOf("Saturday")) + " : " + (String) satHours.get(0) + " - " + (String) satHours.get(1) + "<br>");
                         JSONArray sunHours = (JSONArray) obj.get("Sunday");
                         out.println(keyList.get(keyList.indexOf("Sunday")) + " : " + (String) sunHours.get(0) + " - " + (String) sunHours.get(1));
-
+                        con.close();
                     }
                     catch(Exception e){
                         out.println("Exception caught: " +e.getMessage());
